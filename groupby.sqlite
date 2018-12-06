@@ -1,0 +1,4 @@
+SELECT category, price, AVG(downloads) FROM fake_apps GROUP BY 1, 2;
+
+-- 1 is the first column selected 
+-- 2 is the second column selected 
